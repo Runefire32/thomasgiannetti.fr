@@ -1,2232 +1,642 @@
-<html lang="fr"><head>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <!--
+     - Roxy: Bootstrap template by GettTemplates.com
+     - https://gettemplates.co/roxy
+    -->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Roxy by GetTemplates.co</title>
+    <meta name="description" content="Roxy">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900" rel="stylesheet">
 
-    <title>Softy Pinko - Bootstrap 4.0 Theme</title>
-<!--
-SOFTY PINKO
-https://templatemo.com/tm-535-softy-pinko
--->
+    <!-- External CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/select2/select2.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/lightcase/lightcase.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="assets/css/templatemo-softy-pinko.css">
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
 
-    </head>
-    
-    <body>
-    
-    <!-- ***** Preloader Start ***** -->
-    <div id="preloader">
-        <div class="jumper">
-            <div></div>
-            <div></div>
-            <div></div>
+</head>
+<body data-spy="scroll" data-target="#navbar" class="static-layout">
+	<nav id="header-navbar" class="navbar navbar-expand-lg py-4">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center text-white" href="/">
+            <h3 class="font-weight-bolder mb-0">ROXY</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="lnr lnr-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-nav-header">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a id="side-search-open" class="nav-link" href="#">
+                        <span class="lnr lnr-magnifier"></span>
+                    </a>
+                </li>
+                 <li class="nav-item only-desktop">
+                    <a class="nav-link" id="side-nav-open" href="#">
+                        <span class="lnr lnr-menu"></span>
+                    </a>
+                </li>
+            </ul>
         </div>
-    </div>  
-    <!-- ***** Preloader End ***** -->
-    
-    
-    <!-- ***** Header Area Start ***** -->
-    <header class="header-area header-sticky">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
-                        <a href="#" class="logo">
-                            <img src="assets/images/logo.png" alt="Softy Pinko">
-                        </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
-                        <ul class="nav">
-                            <li><a href="#welcome" class="active">Home</a></li>
-                            <li><a href="#features">About</a></li>
-                            <li><a href="#work-process">Work Process</a></li>
-                            <li><a href="#testimonials">Testimonials</a></li>
-                            <li><a href="#pricing-plans">Pricing Tables</a></li>
-                            <li><a href="#blog">Blog Entries</a></li>
-                            <li><a href="#contact-us">Contact Us</a></li>
-                        </ul>
-                        <a class="menu-trigger">
-                            <span>Menu</span>
-                        </a>
-                        <!-- ***** Menu End ***** -->
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ***** Header Area End ***** -->
-
-    <!-- ***** Welcome Area Start ***** -->
-    <div class="welcome-area" id="welcome">
-
-        <!-- ***** Header Text Start ***** -->
-        <div class="header-text">
-            <div class="container">
-                <div class="row">
-                    <div class="offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-12 col-sm-12">
-                        <h1>We provide the best <strong>strategy</strong><br>to grow up your <strong>business</strong></h1>
-                        <p>Softy Pinko is a professional Bootstrap 4.0 theme designed by Template Mo 
-                        for your company at absolutely free of charge</p>
-                        <a href="#features" class="main-button-slider">Discover More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- ***** Header Text End ***** -->
     </div>
-    <!-- ***** Welcome Area End ***** -->
+</nav>
 
-    <!-- ***** Features Small Start ***** -->
-    <section class="section home-feature">
-        <div class="container">
+<div id="side-nav" class="sidenav">
+	<a href="javascript:void(0)" id="side-nav-close">&times;</a>
+	
+	<div class="sidenav-content">
+		<p>
+			Kuncen WB1, Wirobrajan 10010, DIY
+		</p>
+		<p>
+			<span class="fs-16 primary-color">(+68) 120034509</span>
+		</p>
+		<p>info@yourdomain.com</p>
+	</div>
+</div><div id="side-search" class="sidenav">
+	<a href="javascript:void(0)" id="side-search-close">&times;</a>
+	<div class="sidenav-content">
+		<form action="">
+
+			<div class="input-group md-form form-sm form-2 pl-0">
+			  <input class="form-control my-0 py-1 red-border" type="text" placeholder="Search" aria-label="Search">
+			  <div class="input-group-append">
+			    <button class="input-group-text red lighten-3" id="basic-text1">
+			    	<span class="lnr lnr-magnifier"></span>
+			    </button>
+			  </div>
+			</div>
+
+		</form>
+	</div>
+	
+</div>	<div class="jumbotron d-flex align-items-center">
+  <div class="container text-center">
+    <h1 class="display-1 mb-4">RO<br>XY</h1>
+  </div>
+  <div class="rectangle-1"></div>
+  <div class="rectangle-2"></div>
+  <div class="rectangle-transparent-1"></div>
+  <div class="rectangle-transparent-2"></div>
+  <div class="circle-1"></div>
+  <div class="circle-2"></div>
+  <div class="circle-3"></div>
+  <div class="triangle triangle-1">
+  	<img src="img/obj_triangle.png" alt="">
+  </div>
+  <div class="triangle triangle-2">
+  	<img src="img/obj_triangle.png" alt="">
+  </div>
+  <div class="triangle triangle-3">
+  	<img src="img/obj_triangle.png" alt="">
+  </div>
+  <div class="triangle triangle-4">
+  	<img src="img/obj_triangle.png" alt="">
+  </div>
+</div>	<!-- Features Section-->
+<section id="features" class="bg-white">
+    <div class="container">
+        <div class="section-content">
+            <!-- Section Title -->
+            <div class="title-wrap mb-5" data-aos="fade-up">
+                <h2 class="section-title">
+                    A template built by <a href="https://gettemplates.co" target="_blank">GetTemplates.co</a>
+                </h2>
+                <p class="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. <br> pharetra augue. Donec id elit non mi.</p>
+            </div>
+            <!-- End of Section Title -->
             <div class="row">
-                <div class="col-lg-12">
+                <!-- Features Holder-->
+                <div class="col-md-10 offset-md-1 features-holder">
                     <div class="row">
-                        <!-- ***** Features Small Item Start ***** -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
-                            <div class="features-small-item">
-                                <div class="icon">
-                                    <i><img src="assets/images/featured-item-01.png" alt=""></i>
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-12 text-center mt-4">
+                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
+                                <div class="my-4">
+                                    <i class="lnr lnr-cog fs-40"></i>
                                 </div>
-                                <h5 class="features-title">Modern Strategy</h5>
-                                <p>Customize anything in this template to fit your website needs</p>
+                                <h4>Easy to Customize</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
                             </div>
-                        </div>
-                        <!-- ***** Features Small Item End ***** -->
-
-                        <!-- ***** Features Small Item Start ***** -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
-                            <div class="features-small-item">
-                                <div class="icon">
-                                    <i><img src="assets/images/featured-item-01.png" alt=""></i>
+                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
+                                <div class="my-4">
+                                    <i class="lnr lnr-frame-contract fs-40"></i>
                                 </div>
-                                <h5 class="features-title">Best Relationship</h5>
-                                <p>Contact us immediately if you have a question in mind</p>
+                                <h4>Pixel Perfect</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
                             </div>
                         </div>
-                        <!-- ***** Features Small Item End ***** -->
-
-                        <!-- ***** Features Small Item Start ***** -->
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
-                            <div class="features-small-item">
-                                <div class="icon">
-                                    <i><img src="assets/images/featured-item-01.png" alt=""></i>
+                        <!-- End of Feature Item -->
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-12 text-center">
+                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
+                                <div class="my-4">
+                                    <i class="lnr lnr-bubble fs-40"></i>
                                 </div>
-                                <h5 class="features-title">Ultimate Marketing</h5>
-                                <p>You just need to tell your friends about our free templates</p>
+                                <h4>Full Support</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
+                                <div class="my-4">
+                                    <i class="lnr lnr-magic-wand fs-40"></i>
+                                </div>
+                                <h4>Clean Design</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
                             </div>
                         </div>
-                        <!-- ***** Features Small Item End ***** -->
+                        <!-- End of Feature Item -->
+                        <!-- Features Item -->
+                        <div class="col-md-4 col-sm-12 text-center mt-4">
+                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
+                                <div class="my-4">
+                                    <i class="lnr lnr-clock fs-40"></i>
+                                </div>
+                                <h4>Ontime Project</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                            <div class="shadow rounded feature-item p-4 mb-4" data-aos="fade-up">
+                                <div class="my-4">
+                                    <i class="lnr lnr-thumbs-up fs-40"></i>
+                                </div>
+                                <h4>Built with SASS</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+                            </div>
+                        </div>
+                        <!-- End of Feature Item -->
                     </div>
+                </div>
+                <!-- End of Features Holder-->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Features Section-->	<section id="section-featurettes" class="featurettes overlay bg-fixed" style="background-image: url(img/bg.jpg);">
+
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row align-items-center text-white">
+
+                        <div class="col-md-4 offset-md-2 col-sm-6" data-aos="fade-right">
+                            <h4 class="mb-4">Capture every moments and share it to all your friends</h4>
+                            <p>Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet.</p>
+                            <button type="button" class="btn btn-outline-primary">FEATURES</button>
+                        </div><!--/ .col-md-4.col-md-offset-2.col-sm-6 -->
+
+                        <div class="col-md-4 offset-md-right-2 col-sm-6" data-aos="flip-right">
+                            <img class="my-5" src="img/app-profile-mockup.png" alt="">
+                        </div><!--/ .col-md-4.col-md-offset-right-2.col-sm-6 -->
+
+                    </div><!--/ .featurettes-item -->
+
+                </div><!--/ .col-md-12 -->
+
+            </div><!--/ .row -->
+        </div>
+    </div><!--/ .container -->
+
+</section>	<section id="section-featurettes" class="featurettes">
+
+    <div class="container">
+        <div class="section-content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row align-items-center">
+
+                        <div class="col-md-4 offset-md-2 col-sm-6" data-aos="flip-left">
+                            <img class="my-5" src="img/app-profile-mockup.png" alt="">
+                        </div><!--/ .col-md-4.col-md-offset-right-2.col-sm-6 -->
+
+                        <div class="col-md-4 offset-md-right-2 col-sm-6" data-aos="fade-left">
+                            <h4 class="mb-4">Capture every moments and share it to all your friends</h4>
+                            <p>Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet.</p>
+                            <div class="progress mb-3">
+                                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">HTML5 95%</div>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">CSS3 90%</div>
+                            </div>
+                        </div><!--/ .col-md-4.col-md-offset-2.col-sm-6 -->
+
+                    </div><!--/ .featurettes-item -->
+
+                </div><!--/ .col-md-12 -->
+
+            </div><!--/ .row -->
+        </div>
+    </div><!--/ .container -->
+
+</section>	<!-- Testimonial Section-->
+<section id="testimonial" class="section-padding bg-fixed bg-white overlay" style="background-image: url(img/bg-white.jpg);">
+    <div class="container">
+        <div class="section-content" data-aos="fade-up">
+            <div class="heading-section text-center">
+                <h2>
+                    User Testimonials
+                </h2>
+            </div>
+            <div class="row">
+                <!-- Testimonial -->
+                <div class="testi-content testi-carousel owl-carousel">
+                    <div class="testi-item text-center">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <h4 class="testi-text"><b>ROXY</b> is best theme i used so far.<br> It’s ideal for guys without coding knowledge like me!</h4>
+                        <div class="testi-meta-inner d-flex justify-content-center align-items-center">
+                            <div class="testi-img mr-2">
+                                <img src="img/testi-1.jpg" alt="">
+                            </div>
+                            <div class="testi-details">
+                                <p class="testi-author mb-0 font-weight-bolder">John Doe</p>
+                                <p class="testi-desc mb-0">Web Designer</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="testi-item text-center">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <h4 class="testi-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci <br> non doloribus ut, alias doloremque perspiciatis.</h4>
+                        <div class="testi-meta-inner d-flex justify-content-center align-items-center">
+                            <div class="testi-img mr-2">
+                                <img src="img/testi-1.jpg" alt="">
+                            </div>
+                            <div class="testi-details">
+                                <p class="testi-author mb-0 font-weight-bolder">John Doe</p>
+                                <p class="testi-desc mb-0">Web Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="testi-item text-center">
+                        <i class="testi-icon fa fa-3x fa-quote-left"></i>
+                        <h4 class="testi-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci <br> non doloribus ut, alias doloremque perspiciatis.</h4>
+                        <div class="testi-meta-inner d-flex justify-content-center align-items-center">
+                            <div class="testi-img mr-2">
+                                <img src="img/testi-1.jpg" alt="">
+                            </div>
+                            <div class="testi-details">
+                                <p class="testi-author mb-0 font-weight-bolder">John Doe</p>
+                                <p class="testi-desc mb-0">Web Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Testimonial -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Testimonial Section-->	<!-- Portfolio Section -->
+<section id="portfolio" class="bg-white">
+    <div class="container">
+        <div class="section-content">
+            <!-- Section Title -->
+            <div class="title-wrap">
+                <h2 class="section-title">Our <b>Awesome</b> Works</h2>
+                <p class="section-sub-title">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. <br> pharetra augue. Donec id elit non mi.</p>
+            </div>
+            <!-- End of Section Title -->
+            <div class="row">
+                <!-- Portfolio Holder -->
+                <div class="col-md-12 portfolio-holder mt-3">
+                    <!-- Btn Filter -->
+                    <div class="filter-button-group btn-filter d-flex justify-content-center">
+                        <a tabindex="0" class="is-checked" data-filter="*">Show All</a>
+                        <a tabindex="0" data-filter=".minimalism">Minimalism</a>
+                        <a tabindex="0" data-filter=".vintage">Vintage</a>
+                        <a tabindex="0" data-filter=".creative">Creative</a>
+                    </div>
+                    <!-- End of Btn Filter -->
+                    <!-- Portfolio Content -->
+                    <div class="grid-portfolio">
+                        <div class="grid-sizer"></div>
+                        <div class="gutter-sizer"></div>
+                        <!-- Portfolio Item -->
+                        <div class="grid-item minimalism" data-aos="fade-up">
+                            <div class="grid-item-wrapper">
+                                <img src="img/photo-1.jpg" alt="portfolio-img" class="portfolio-item">
+                                <div class="grid-info">
+                                    <div class="grid-link d-flex justify-content-center">
+                                        <a class="img-pop" data-rel="lightcase" href="img/photo-1.jpg" title="Photo-1">
+                                            <span class="lnr lnr-move"></span>
+                                        </a>
+                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
+                                            <span class="lnr lnr-link"></span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-title">
+                                        <h4>Camera</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End of Portfolio Item -->
+                        <!-- Portfolio Item -->
+                        <div class="grid-item vintage" data-aos="fade-up">
+                            <div class="grid-item-wrapper">
+                                <img src="img/photo-6.jpg" alt="portfolio-img" class="portfolio-item">
+                                <div class="grid-info">
+                                    <div class="grid-link d-flex justify-content-center">
+                                        <a class="img-pop" data-rel="lightcase" href="img/photo-6.jpg" title="Ship">
+                                            <span class="lnr lnr-move"></span>
+                                        </a>
+                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
+                                            <span class="lnr lnr-link"></span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-title">
+                                        <h4>Flower</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End of Portfolio Item -->
+                        <!-- Portfolio Item -->
+                        <div class="grid-item creative grid-item-height" data-aos="fade-up">
+                            <div class="grid-item-wrapper">
+                                <img src="img/photo-2.jpg" alt="portfolio-img" class="portfolio-item">
+                                <div class="grid-info">
+                                    <div class="grid-link d-flex justify-content-center">
+                                        <a class="img-pop" data-rel="lightcase" href="img/photo-2.jpg" title="Tracy Portrait">
+                                            <span class="lnr lnr-move"></span>
+                                        </a>
+                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
+                                            <span class="lnr lnr-link"></span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-title">
+                                        <h4>Breakfast</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End of Portfolio Item -->
+                        <!-- Portfolio Item -->
+                        <div class="grid-item creative" data-aos="fade-up">
+                            <div class="grid-item-wrapper">
+                                <img src="img/photo-7.jpg" alt="portfolio-img" class="portfolio-item">
+                                <div class="grid-info">
+                                    <div class="grid-link d-flex justify-content-center">
+                                        <a class="img-pop" data-rel="lightcase" href="img/photo-7.jpg" title="Guitar">
+                                            <span class="lnr lnr-move"></span>
+                                        </a>
+                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
+                                            <span class="lnr lnr-link"></span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-title">
+                                        <h4>Chair</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End of Portfolio Item -->
+                        <!-- Portfolio Item -->
+                        <div class="grid-item vintage" data-aos="fade-up">
+                            <div class="grid-item-wrapper">
+                                <img src="img/photo-4.jpg" alt="portfolio-img" class="portfolio-item">
+                                <div class="grid-info">
+                                    <div class="grid-link d-flex justify-content-center">
+                                        <a class="img-pop" data-rel="lightcase" href="img/photo-4.jpg" title="Bookself">
+                                            <span class="lnr lnr-move"></span>
+                                        </a>
+                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
+                                            <span class="lnr lnr-link"></span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-title">
+                                        <h4>Hidden Book</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End of Portfolio Item -->
+                        <!-- Portfolio Item -->
+                        <div class="grid-item creative" data-aos="fade-up">
+                            <div class="grid-item-wrapper">
+                                <img src="img/photo-9.jpg" alt="portfolio-img" class="portfolio-item">
+                                <div class="grid-info">
+                                    <div class="grid-link d-flex justify-content-center">
+                                        <a class="img-pop" data-rel="lightcase" href="img/photo-9.jpg" title="Guitar">
+                                            <span class="lnr lnr-move"></span>
+                                        </a>
+                                        <a class="ext-link" href="https://unsplash.com/" target="_blank">
+                                            <span class="lnr lnr-link"></span>
+                                        </a>
+                                    </div>
+                                    <div class="grid-title">
+                                        <h4>Red</h4>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End of Portfolio Item -->
+                    </div>
+                    <!-- End of Portfolio Content -->
+                </div>
+                <!-- End of Portfolio Holder -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Portfolio Section -->	<!-- Client Section -->
+<section id="client" class="overlay bg-fixed" style="background-image: url(img/bg.jpg);">
+    <div class="container">
+        <div class="section-content" data-aos="fade-up">
+            <div class="row ">
+                <div class="col-md-12">
+                    <!-- Section Title -->
+                    <div class="title-wrap mb-5">
+                        <h2>Who love to <span> work</span> with us</h2>
+                    </div>
+                    <!-- End of Section Title -->
+                </div>
+                <!-- Client Holder -->
+                <div class="col-md-12 client-holder">
+                    <div class="client-slider owl-carousel">
+                        <div class="client-item">
+                            <img class="img-responsive" src="img/client.png" alt=" ">
+                        </div>
+                        <div class="client-item">
+                            <img class="img-responsive" src="img/client.png" alt=" ">
+                        </div>
+                        <div class="client-item">
+                            <img class="img-responsive" src="img/client.png" alt=" ">
+                        </div>
+                        <div class="client-item">
+                            <img class="img-responsive" src="img/client.png" alt=" ">
+                        </div>
+                        <div class="client-item">
+                            <img class="img-responsive" src="img/client.png" alt=" ">
+                        </div>
+                        <div class="client-item">
+                            <img class="img-responsive" src="img/client.png" alt=" ">
+                        </div>
+                    </div>
+                    <!-- End of Client Holder -->
                 </div>
             </div>
         </div>
-    </section>
-    <!-- ***** Features Small End ***** -->
-
-    <!-- ***** Features Big Item Start ***** -->
-    <section class="section padding-top-70 padding-bottom-0" id="features">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-md-12 col-sm-12 align-self-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
-                </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
-                    <div class="left-heading">
-                        <h2 class="section-title">Let’s discuss about you project</h2>
+</section>
+<!-- End of Client Section -->	<!-- Reservation Section -->
+<section id="reservation" class="bg-white section-content">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 offset-lg-1 mb-5 mb-lg-0" data-aos="fade-right">
+                <div class="bg-white p-5 shadow">
+                    <div class="heading-section text-center">
+                        <h2 class="mb-4">
+                            Contact Us
+                        </h2>
                     </div>
-                    <div class="left-text">
-                        <p>Nullam sit amet purus libero. Etiam ullamcorper nisl ut augue blandit, at finibus leo efficitur. Nam gravida purus non sapien auctor, ut aliquam magna ullamcorper.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="hr"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Features Big Item End ***** -->
-
-    <!-- ***** Features Big Item Start ***** -->
-    <section class="section padding-bottom-100">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-bottom-fix">
-                    <div class="left-heading">
-                        <h2 class="section-title">We can help you to grow your business</h2>
-                    </div>
-                    <div class="left-text">
-                        <p>Aenean pretium, ipsum et porttitor auctor, metus ipsum iaculis nisi, a bibendum lectus libero vitae urna. Sed id leo eu dolor luctus congue sed eget ipsum. Nunc nec luctus libero. Etiam quis dolor elit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <img src="assets/images/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Features Big Item End ***** -->
-
-    <!-- ***** Home Parallax Start ***** -->
-    <section class="mini" id="work-process">
-        <div class="mini-content">
-            <div class="container">
-                <div class="row">
-                    <div class="offset-lg-3 col-lg-6">
-                        <div class="info">
-                            <h1>Work Process</h1>
-                            <p>Aenean nec tempor metus. Maecenas ligula dolor, commodo in imperdiet interdum, vehicula ut ex. Donec ante diam.</p>
+                    <form method="post" name="contact-us" action="">
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="email" name="email" placeholder="Email">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Phone">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <input type="text" class="form-control" id="websiteUrl" name="websiteUrl" placeholder="Website">
+                            </div>
+                            <div class="col-md-12 form-group">
+                                <textarea class="form-control" id="message" name="message" rows="6" placeholder="Your Message ..."></textarea>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <button class="btn btn-primary btn-shadow btn-lg" type="submit" name="submit">Send Message</button>
+                            </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1" data-aos="fade-left">
+                <h2 class="mb-4">
+                    Best solution to create any website. Pay once.
+                </h2>
+                <p class="mb-4">I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
 
-                <!-- ***** Mini Box Start ***** -->
-                <div class="row">
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                        <a href="#" class="mini-box">
-                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                            <strong>Get Ideas</strong>
-                            <span>Godard pabst prism fam cliche.</span>
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                        <a href="#" class="mini-box">
-                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                            <strong>Sketch Up</strong>
-                            <span>Godard pabst prism fam cliche.</span>
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                        <a href="#" class="mini-box">
-                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                            <strong>Discuss</strong>
-                            <span>Godard pabst prism fam cliche.</span>
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                        <a href="#" class="mini-box">
-                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                            <strong>Revise</strong>
-                            <span>Godard pabst prism fam cliche.</span>
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                        <a href="#" class="mini-box">
-                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                            <strong>Approve</strong>
-                            <span>Godard pabst prism fam cliche.</span>
-                        </a>
-                    </div>
-                    <div class="col-lg-2 col-md-3 col-sm-6 col-6">
-                        <a href="#" class="mini-box">
-                            <i><img src="assets/images/work-process-item-01.png" alt=""></i>
-                            <strong>Launch</strong>
-                            <span>Godard pabst prism fam cliche.</span>
-                        </a>
-                    </div>
-                </div>
-                <!-- ***** Mini Box End ***** -->
+                <ul class="list-inline py-2">
+                    <li class="list-inline-item text-center">
+                        <span class="lnr fs-40 lnr-rocket"></span>
+                        <p>Fast delivery</p>
+                    </li>
+                    <li class="list-inline-item text-center">
+                        <span class="lnr fs-40 lnr-magic-wand"></span>
+                        <p>Awesome design</p>
+                    </li>
+                    <li class="list-inline-item text-center">
+                        <span class="lnr fs-40 lnr-cog"></span>
+                        <p>Easy to customize</p>
+                    </li>
+                </ul>
+
+                <a href="#" class="btn btn-link p-0">
+                    <span>PURCHASE NOW</span>
+                    <span class="lnr lnr-arrow-right"></span>
+                </a>
             </div>
         </div>
-    </section>
-    <!-- ***** Home Parallax End ***** -->
-
-    <!-- ***** Testimonials Start ***** -->
-    <section class="section" id="testimonials">
-        <div class="container">
-            <!-- ***** Section Title Start ***** -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="center-heading">
-                        <h2 class="section-title">What do they say?</h2>
-                    </div>
-                </div>
-                <div class="offset-lg-3 col-lg-6">
-                    <div class="center-text">
-                        <p>Donec tempus, sem non rutrum imperdiet, lectus orci fringilla nulla, at accumsan elit eros a turpis. Ut sagittis lectus libero.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- ***** Section Title End ***** -->
-
-            <div class="row">
-                <!-- ***** Testimonials Item Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="team-item">
-                        <div class="team-content">
-                            <i><img src="assets/images/testimonial-icon.png" alt=""></i>
-                            <p>Proin a neque nisi. Nam ipsum nisi, venenatis ut nulla quis, egestas scelerisque orci. Maecenas a finibus odio.</p>
-                            <div class="user-image">
-                                <img src="http://placehold.it/60x60" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3 class="user-name">Catherine Soft</h3>
-                                <span>Managing Director</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** Testimonials Item End ***** -->
-                
-                <!-- ***** Testimonials Item Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="team-item">
-                        <div class="team-content">
-                            <i><img src="assets/images/testimonial-icon.png" alt=""></i>
-                            <p>Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
-                            <div class="user-image">
-                                <img src="http://placehold.it/60x60" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3 class="user-name">Kelvin Wood</h3>
-                                <span>Digital Marketer</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** Testimonials Item End ***** -->
-                
-                <!-- ***** Testimonials Item Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="team-item">
-                        <div class="team-content">
-                            <i><img src="assets/images/testimonial-icon.png" alt=""></i>
-                            <p>Quisque diam odio, maximus ac consectetur eu, auctor non lorem. Cras quis est non ante ultrices molestie. Ut vehicula et diam at aliquam.</p>
-                            <div class="user-image">
-                                <img src="http://placehold.it/60x60" alt="">
-                            </div>
-                            <div class="team-info">
-                                <h3 class="user-name">David Martin</h3>
-                                <span>Website Manager</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** Testimonials Item End ***** -->
-            </div>
-        </div>
-    </section>
-    <!-- ***** Testimonials End ***** -->
-
-    <!-- ***** Pricing Plans Start ***** -->
-    <section class="section colored" id="pricing-plans">
-        <div class="container">
-            <!-- ***** Section Title Start ***** -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="center-heading">
-                        <h2 class="section-title">Pricing Plans</h2>
-                    </div>
-                </div>
-                <div class="offset-lg-3 col-lg-6">
-                    <div class="center-text">
-                        <p>Donec vulputate urna sed rutrum venenatis. Cras consequat magna quis arcu elementum, quis congue risus volutpat.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- ***** Section Title End ***** -->
-
-            <div class="row">
-                <!-- ***** Pricing Item Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
-                    <div class="pricing-item">
-                        <div class="pricing-header">
-                            <h3 class="pricing-title">Starter</h3>
-                        </div>
-                        <div class="pricing-body">
-                            <div class="price-wrapper">
-                                <span class="currency">$</span>
-                                <span class="price">14.50</span>
-                                <span class="period">monthly</span>
-                            </div>
-                            <ul class="list">
-                                <li class="active">60 GB space</li>
-                                <li class="active">600 GB transfer</li>
-                                <li class="active">Pro Design Panel</li>
-                                <li>15-minute support</li>
-                                <li>Unlimited Emails</li>
-                                <li>24/7 Security</li>
-                            </ul>
-                        </div>
-                        <div class="pricing-footer">
-                            <a href="#" class="main-button">Purchase Now</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** Pricing Item End ***** -->
-
-                <!-- ***** Pricing Item Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
-                    <div class="pricing-item active">
-                        <div class="pricing-header">
-                            <h3 class="pricing-title">Premium</h3>
-                        </div>
-                        <div class="pricing-body">
-                            <div class="price-wrapper">
-                                <span class="currency">$</span>
-                                <span class="price">21.50</span>
-                                <span class="period">monthly</span>
-                            </div>
-                            <ul class="list">
-                                <li class="active">120 GB space</li>
-                                <li class="active">1200 GB transfer</li>
-                                <li class="active">Pro Design Panel</li>
-                                <li class="active">15-minute support</li>
-                                <li>Unlimited Emails</li>
-                                <li>24/7 Security</li>
-                            </ul>
-                        </div>
-                        <div class="pricing-footer">
-                            <a href="#" class="main-button">Purchase Now</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** Pricing Item End ***** -->
-
-                <!-- ***** Pricing Item Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
-                    <div class="pricing-item">
-                        <div class="pricing-header">
-                            <h3 class="pricing-title">Advanced</h3>
-                        </div>
-                        <div class="pricing-body">
-                            <div class="price-wrapper">
-                                <span class="currency">$</span>
-                                <span class="price">42.00</span>
-                                <span class="period">monthly</span>
-                            </div>
-                            <ul class="list">
-                                <li class="active">250 GB space</li>
-                                <li class="active">5000 GB transfer</li>
-                                <li class="active">Pro Design Panel</li>
-                                <li class="active">15-minute support</li>
-                                <li class="active">Unlimited Emails</li>
-                                <li class="active">24/7 Security</li>
-                            </ul>
-                        </div>
-                        <div class="pricing-footer">
-                            <a href="#" class="main-button">Purchase Now</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- ***** Pricing Item End ***** -->
-            </div>
-        </div>
-    </section>
-    <!-- ***** Pricing Plans End ***** -->
-
-    <!-- ***** Counter Parallax Start ***** -->
-    <section class="counter">
-        <div class="content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="count-item decoration-bottom">
-                            <strong>126</strong>
-                            <span>Projects</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="count-item decoration-top">
-                            <strong>63</strong>
-                            <span>Happy Clients</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="count-item decoration-bottom">
-                            <strong>18</strong>
-                            <span>Awards Wins</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div class="count-item">
-                            <strong>27</strong>
-                            <span>Countries</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Counter Parallax End ***** -->   
-
-    <!-- ***** Blog Start ***** -->
-    <section class="section" id="blog">
-        <div class="container">
-            <!-- ***** Section Title Start ***** -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="center-heading">
-                        <h2 class="section-title">Blog Entries</h2>
-                    </div>
-                </div>
-                <div class="offset-lg-3 col-lg-6">
-                    <div class="center-text">
-                        <p>Integer molestie aliquam gravida. Nullam nec arcu finibus, imperdiet nulla vitae, placerat nibh. Cras maximus venenatis molestie.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- ***** Section Title End ***** -->
-
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="blog-post-thumb">
-                        <div class="img">
-                            <img src="assets/images/blog-item-01.png" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <h3>
-                                <a href="#">Vivamus ac vehicula dui</a>
-                            </h3>
-                            <div class="text">
-                               Cras aliquet ligula dui, vitae fermentum velit tincidunt id. Praesent eu finibus nunc. Nulla in sagittis eros. Aliquam egestas augue.
-                            </div>
-                            <a href="#" class="main-button">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="blog-post-thumb">
-                        <div class="img">
-                            <img src="assets/images/blog-item-02.png" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <h3>
-                                <a href="#">Phasellus convallis augue</a>
-                            </h3>
-                            <div class="text">
-                                Aliquam commodo ornare nisl, et scelerisque nisl dignissim ac. Vestibulum finibus urna ut velit venenatis, vel ultrices sapien mattis.
-                            </div>
-                            <a href="#" class="main-button">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="blog-post-thumb">
-                        <div class="img">
-                            <img src="assets/images/blog-item-03.png" alt="">
-                        </div>
-                        <div class="blog-content">
-                            <h3>
-                                <a href="#">Nam gravida purus non</a>
-                            </h3>
-                            <div class="text">
-                                Maecenas eu erat vitae dui convallis consequat vel gravida nulla. Vestibulum finibus euismod odio, ut tempus enim varius eu.
-                            </div>
-                            <a href="#" class="main-button">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- ***** Blog End ***** -->
-
-    <!-- ***** Contact Us Start ***** -->
-    <section class="section colored" id="contact-us">
-        <div class="container">
-            <!-- ***** Section Title Start ***** -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="center-heading">
-                        <h2 class="section-title">Talk To Us</h2>
-                    </div>
-                </div>
-                <div class="offset-lg-3 col-lg-6">
-                    <div class="center-text">
-                        <p>Maecenas pellentesque ante faucibus lectus vulputate sollicitudin. Cras feugiat hendrerit semper.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- ***** Section Title End ***** -->
-
-            <div class="row">
-                <!-- ***** Contact Text Start ***** -->
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <h5 class="margin-bottom-30">Keep in touch</h5>
-                    <div class="contact-text">
-                        <p>110-220 Quisque diam odio, maximus ac consectetur eu, 10260
-                        <br>auctor non lorem</p>
-                        <p>You are NOT allowed to re-distribute Softy Pinko template on any template collection websites. Thank you.</p>
-                    </div>
-                </div>
-                <!-- ***** Contact Text End ***** -->
-
-                <!-- ***** Contact Form Start ***** -->
-                <div class="col-lg-8 col-md-6 col-sm-12">
-                    <div class="contact-form">
-                        <form id="contact" action="" method="get">
-                          <div class="row">
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                              <fieldset>
-                                <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
-                              </fieldset>
-                            </div>
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                              <fieldset>
-                                <input name="email" type="email" class="form-control" id="email" placeholder="E-Mail Address" required="">
-                              </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                              <fieldset>
-                                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" required=""></textarea>
-                              </fieldset>
-                            </div>
-                            <div class="col-lg-12">
-                              <fieldset>
-                                <button type="submit" id="form-submit" class="main-button">Send Message</button>
-                              </fieldset>
-                            </div>
-                          </div>
-                        </form>
-                    </div>
-                </div>
-                <!-- ***** Contact Form End ***** -->
-            </div>
-        </div>
-    </section>
-    <!-- ***** Contact Us End ***** -->
-    
-    <!-- ***** Footer Start ***** -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <ul class="social">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="copyright">Copyright © 2020 Softy Pinko Company - Design: TemplateMo</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-    
-    <!-- jQuery -->
-    <script src="assets/js/jquery-2.1.0.min.js"></script>
-
-    <!-- Bootstrap -->
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- Plugins -->
-    <script src="assets/js/scrollreveal.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/imgfix.min.js"></script> 
-    
-    <!-- Global Init -->
-    <script src="assets/js/custom.js"></script>
         
-<style>
-/*
-
-Softy Pinko
-
-https://templatemo.com/tm-535-softy-pinko
-
-*/
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. welcome
-06. features
-07. team
-08. pricing
-09. blog
-10. contact
-11. footer
-12. preloader
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
-@import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
-/* 
----------------------------------------------
-reset
---------------------------------------------- 
-*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
-pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
-s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
-figure, header, nav, section, article, aside, footer, figcaption {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-}
-
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
-}
-
-.clearfix {
-  display: inline-block;
-}
-
-html[xmlns] .clearfix {
-  display: block;
-}
-
-* html .clearfix {
-  height: 1%;
-}
-
-ul, li {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-header, nav, section, article, aside, footer, hgroup {
-  display: block;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html, body {
-  font-family: "Raleway", sans-serif;
-  font-weight: 400;
-  background-color: #fff;
-  font-size: 16px;
-  -ms-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  text-decoration: none !important;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-ul {
-  margin-bottom: 0px;
-}
-
-/* 
----------------------------------------------
-global styles
---------------------------------------------- 
-*/
-html,
-body {
-  background: #fff;
-  font-family: "Raleway", sans-serif;
-}
-
-::selection {
-  background: #ff589e;
-  color: #fff;
-}
-
-::-moz-selection {
-  background: #ff589e;
-  color: #fff;
-}
-
-.section {
-  position: relative;
-  padding-top: 100px;
-  padding-bottom: 80px;
-}
-
-.section.colored {
-  background: #f2f2fe;
-}
-
-.hr {
-  bottom: 0px;
-  width: 100%;
-  height: 1px;
-  margin-top: 100px;
-  border-bottom: 1px solid #eee;
-}
-
-.left-heading.light .section-title {
-  color: #ffffff;
-}
-
-.left-heading .section-title {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 42px;
-  color: #1e1e1e;
-  letter-spacing: 0.25px;
-  margin-bottom: 30px;
-  position: relative;
-}
-
-.center-heading {
-  text-align: center;
-}
-
-.center-heading .section-title {
-  font-weight: 500;
-  font-size: 28px;
-  color: #1e1e1e;
-  letter-spacing: 1.75px;
-  line-height: 38px;
-  margin-bottom: 20px;
-}
-
-.center-heading.colored .section-title {
-  color: #ffffff;
-}
-
-.center-text {
-  text-align: center;
-  font-weight: 400;
-  font-size: 16px;
-  color: #777;
-  line-height: 28px;
-  letter-spacing: 1px;
-  margin-bottom: 50px;
-}
-
-.center-text.colored {
-  color: #fff;
-}
-
-.center-text p {
-  font-size: 15px;
-  color: #777;
-  margin-bottom: 30px;
-}
-
-.left-text {
-  font-weight: 400;
-  font-size: 16px;
-  color: #777;
-  line-height: 28px;
-  letter-spacing: 1px;
-}
-
-.left-text.light {
-  color: #fff;
-}
-
-.left-text p {
-  margin-bottom: 30px;
-}
-
-.left-text p.dark {
-  color: #3B566E;
-}
-
-.padding-bottom-top-60 {
-  padding-top: 60px !important;
-  padding-bottom: 60px !important;
-}
-
-.padding-bottom-80 {
-  padding-bottom: 80px !important;
-}
-
-.padding-bottom-100 {
-  padding-bottom: 100px !important;
-}
-
-.border-bottom {
-  border-bottom: 1px solid #eee !important;
-}
-
-.mbottom-30 {
-  margin-bottom: 30px !important;
-}
-
-.align-self-center {
-  -ms-flex-item-align: center !important;
-  align-self: center !important;
-}
-
-.align-self-bottom {
-  -ms-flex-item-align: flex-end !important;
-  align-self: flex-end !important;
-}
-
-.padding-bottom-0 {
-  padding-bottom: 0px !important;
-}
-
-.padding-top-0 {
-  padding-top: 0px !important;
-}
-
-.padding-top-80 {
-  padding-top: 80px !important;
-}
-
-.padding-top-70 {
-  padding-top: 70px !important;
-}
-
-.padding-top-20 {
-  padding-top: 20px !important;
-}
-
-.margin-bottom-0 {
-  margin-bottom: 0px !important;
-}
-
-.margin-bottom-30 {
-  margin-bottom: 30px !important;
-}
-
-.margin-top-30 {
-  margin-top: 30px !important;
-}
-
-.margin-top-15 {
-  margin-top: 15px !important;
-}
-
-.margin-bottom-45 {
-  margin-bottom: 45px !important;
-}
-
-.margin-bottom-20 {
-  margin-bottom: 20px !important;
-}
-
-.margin-bottom-60 {
-  margin-bottom: 60px !important;
-}
-
-.margin-bottom-100 {
-  margin-bottom: 100px !important;
-}
-
-@media (max-width: 991px) {
-  html, body {
-    overflow-x: hidden;
-  }
-  .mobile-top-fix {
-    margin-top: 30px;
-    margin-bottom: 0px;
-  }
-  .mobile-bottom-fix {
-    margin-bottom: 30px;
-  }
-  .mobile-bottom-fix-big {
-    margin-bottom: 60px;
-  }
-}
-
-a.main-button-slider {
-  font-size: 13px;
-  border-radius: 20px;
-  padding: 12px 20px;
-  background-color: #ff589e;
-  text-transform: uppercase;
-  color: #fff;
-  letter-spacing: 0.25px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-a.main-button-slider:hover {
-  background-color: #8261ee;
-}
-
-a.main-button {
-  font-size: 13px;
-  border-radius: 20px;
-  padding: 12px 20px;
-  background-color: #8261ee;
-  text-transform: uppercase;
-  color: #fff;
-  letter-spacing: 0.25px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-a.main-button:hover {
-  background-color: #ff589e;
-}
-
-button.main-button {
-  outline: none;
-  border: none;
-  cursor: pointer;
-  font-size: 13px;
-  border-radius: 20px;
-  padding: 12px 20px;
-  background-color: #8261ee;
-  text-transform: uppercase;
-  color: #fff;
-  letter-spacing: 0.25px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-button.main-button:hover {
-  background-color: #ff589e;
-}
-
-
-/* 
----------------------------------------------
-header
---------------------------------------------- 
-*/
-.header-area {
-  position: fixed;
-  top: 30px;
-  left: 0px;
-  right: 0px;
-  z-index: 100;
-  height: 100px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.header-area .main-nav {
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-  border-radius: 40px;
-  min-height: 80px;
-  background: #fff;
-}
-
-.header-area .main-nav .logo {
-  float: left;
-  margin-top: 37px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  margin-left: 30px;
-}
-
-.header-area .main-nav .logo img {
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.header-area .main-nav .nav {
-  float: right;
-  margin-top: 27px;
-  margin-left: 0px;
-  margin-right: 30px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  position: relative;
-  z-index: 999;
-}
-
-.header-area .main-nav .nav li {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.header-area .main-nav .nav li:last-child {
-  padding-right: 0px;
-}
-
-.header-area .main-nav .nav li a {
-  display: block;
-  font-weight: 500;
-  font-size: 13px;
-  color: #fff;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  height: 40px;
-  line-height: 40px;
-  border: transparent;
-  letter-spacing: 1px;
-}
-
-.header-area .main-nav .nav li a:hover {
-  color: #ff589e;
-}
-
-.header-area .main-nav .menu-trigger {
-  cursor: pointer;
-  display: block;
-  position: absolute;
-  top: 23px;
-  width: 32px;
-  height: 40px;
-  text-indent: -9999em;
-  z-index: 99;
-  right: 40px;
-  display: none;
-}
-
-.header-area .main-nav .menu-trigger span,
-.header-area .main-nav .menu-trigger span:before,
-.header-area .main-nav .menu-trigger span:after {
-  -moz-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-  background-color: #3B566E;
-  display: block;
-  position: absolute;
-  width: 30px;
-  height: 2px;
-  left: 0;
-}
-
-.header-area .main-nav .menu-trigger span:before,
-.header-area .main-nav .menu-trigger span:after {
-  -moz-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-  background-color: #3B566E;
-  display: block;
-  position: absolute;
-  width: 30px;
-  height: 2px;
-  left: 0;
-  width: 75%;
-}
-
-.header-area .main-nav .menu-trigger span:before,
-.header-area .main-nav .menu-trigger span:after {
-  content: "";
-}
-
-.header-area .main-nav .menu-trigger span {
-  top: 16px;
-}
-
-.header-area .main-nav .menu-trigger span:before {
-  -moz-transform-origin: 33% 100%;
-  -ms-transform-origin: 33% 100%;
-  -webkit-transform-origin: 33% 100%;
-  transform-origin: 33% 100%;
-  top: -10px;
-  z-index: 10;
-}
-
-.header-area .main-nav .menu-trigger span:after {
-  -moz-transform-origin: 33% 0;
-  -ms-transform-origin: 33% 0;
-  -webkit-transform-origin: 33% 0;
-  transform-origin: 33% 0;
-  top: 10px;
-}
-
-.header-area .main-nav .menu-trigger.active span,
-.header-area .main-nav .menu-trigger.active span:before,
-.header-area .main-nav .menu-trigger.active span:after {
-  background-color: transparent;
-  width: 100%;
-}
-
-.header-area .main-nav .menu-trigger.active span:before {
-  -moz-transform: translateY(6px) translateX(1px) rotate(45deg);
-  -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
-  -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
-  transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #3B566E;
-}
-
-.header-area .main-nav .menu-trigger.active span:after {
-  -moz-transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #3B566E;
-}
-
-.header-area.header-sticky {
-  min-height: 80px;
-}
-
-.header-area.header-sticky .logo {
-  margin-top: 25px;
-}
-
-.header-area.header-sticky .nav {
-  margin-top: 20px !important;
-}
-
-.header-area.header-sticky .nav li a {
-  color: #1e1e1e;
-}
-
-.header-area.header-sticky .nav li a.active {
-  color: #ff589e;
-}
-
-@media (max-width: 1200px) {
-  .header-area .main-nav .nav li {
-    padding-left: 12px;
-    padding-right: 12px;
-  }
-  .header-area .main-nav:before {
-    display: none;
-  }
-}
-
-@media (max-width: 991px) {
-  .header-area {
-    padding: 0px 15px;
-    height: 80px;
-    box-shadow: none;
-    text-align: center;
-  }
-  .header-area .container {
-    padding: 0px;
-  }
-  .header-area .logo {
-    margin-top: 27px !important;
-    margin-left: 30px;
-  }
-  .header-area .menu-trigger {
-    display: block !important;
-  }
-  .header-area .main-nav {
-    overflow: hidden;
-  }
-  .header-area .main-nav .nav {
-    float: none;
-    width: 100%;
-    margin-top: 80px !important;
-    display: none;
-    -webkit-transition: all 0s ease 0s;
-    -moz-transition: all 0s ease 0s;
-    -o-transition: all 0s ease 0s;
-    transition: all 0s ease 0s;
-    margin-left: 0px;
-  }
-  .header-area .main-nav .nav li:first-child {
-    border-top: 1px solid #eee;
-  }
-  .header-area .main-nav .nav li {
-    width: 100%;
-    background: #fff;
-    border-bottom: 1px solid #eee;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-  }
-  .header-area .main-nav .nav li a {
-    height: 50px !important;
-    line-height: 50px !important;
-    padding: 0px !important;
-    border: none !important;
-    background: #fff !important;
-    color: #3B566E !important;
-  }
-  .header-area .main-nav .nav li a:hover {
-    background: #eee !important;
-  }
-}
-
-@media (min-width: 992px) {
-  .header-area .main-nav .nav {
-    display: flex !important;
-  }
-}
-
-/* 
----------------------------------------------
-welcome
---------------------------------------------- 
-*/
-.welcome-area {
-  overflow: hidden;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url(../images/banner-bg.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover; 
-  height: 100vh;
-}
-
-.welcome-area .header-text {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-55%);
-  text-align: center;
-  width: 100%;
-}
-
-.welcome-area .header-text h1 {
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 54px;
-  letter-spacing: 1.4px;
-  margin-bottom: 30px;
-  color: #fff;
-}
-
-.welcome-area .header-text p {
-  font-weight: 400;
-  font-size: 15px;
-  color: #fff;
-  line-height: 28px;
-  letter-spacing: 0.25px;
-  margin-bottom: 40px;
-  position: relative;
-}
-
-@media (max-width: 991px) {
-  .welcome-area .header-text {
-    top: 65% !important;
-    transform: perspective(1px) translateY(-60%) !important;
-    text-align: center;
-  }
-  .welcome-area .header-text h1 {
-    text-align: center;
-    color: #fff;
-    margin-bottom: 15px;
-  }
-  .welcome-area .header-text h1 span {
-    color: #fff;
-  }
-  .welcome-area .header-text p {
-    text-align: center;
-    color: #fff;
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 820px) {
-  .welcome-area .header-text {
-    top: 65% !important;
-    transform: perspective(1px) translateY(-60%) !important;
-  }
-   .welcome-area .header-text h1 {
-    font-size: 22px;
-    line-height: 30px;
-    margin-bottom: 15px;
-  }
-  .welcome-area .header-text p {
-    margin-bottom: 20px;
-  }
-}
-
-@media (max-width: 765px) {
-  .welcome-area {
-    margin-bottom: 100px;
-  }
-  .welcome-area .header-text {
-    top: 50% !important;
-    transform: perspective(1px) translateY(-50%) !important;
-    text-align: center;
-  }
-  .welcome-area .header-text .buttons {
-    display: none;
-  }
-  .welcome-area .header-text h1 {
-    font-weight: 600;
-    font-size: 24px !important;
-    line-height: 30px !important;
-    margin-bottom: 30px !important;
-  }
-  .welcome-area .header-text h1 span {
-    color: #fff;
-  }
-  .welcome-area .header-text p {
-    text-align: center;
-    color: #fff;
-    font-size: 14px;
-    line-height: 22px;
-    margin-bottom: 40px;
-  }
-}
-
-
-/* 
----------------------------------------------
-features
---------------------------------------------- 
-*/
-.features-small-item {
-  cursor: pointer;
-  display: block;
-  background: #FFFFFF;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  padding: 30px;
-  text-align: center;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  position: relative;
-  margin-bottom: 30px;
-}
-
-.features-small-item:hover .icon {
-  background-color: #ff589e;
-}
-
-.features-small-item .icon {
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  width: 90px;
-  height: 90px;
-  line-height: 90px;
-  margin: auto;
-  position: relative;
-  margin-bottom: 30px;
-  background: #8261ee;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-}
-
-.features-small-item .icon i {
-  font-size: 18px;
-  color: #fff;
-}
-
-.features-small-item .features-title {
-  font-weight: 500;
-  font-size: 18px;
-  color: #1e1e1e;
-  letter-spacing: 0.7px;
-  margin-bottom: 15px;
-  position: relative;
-  z-index: 2;
-}
-
-.features-small-item p {
-  font-weight: 400;
-  font-size: 13px;
-  color: #777;
-  letter-spacing: 0.5px;
-  line-height: 25px;
-  position: relative;
-  z-index: 2;
-}
-
-.features-small-item a {
-  float: right;
-  position: relative;
-  z-index: 2;
-}
-
-.home-feature {
-  padding-bottom: 0px;
-  padding-top: 30px;
-  margin-top: -220px;
-  z-index: 9;
-}
-
-@media (max-width: 991px) {
-  .home-feature {
-    padding-bottom: 0px;
-    padding-top: 0px;
-    margin-top: 0px;
-  }
-}
-
-/* 
----------------------------------------------
-parallax & home seperator
---------------------------------------------- 
-*/
-.mini {
-  min-height: 215px;
-  overflow: hidden;
-  position: relative;
-  padding-top: 90px;
-  padding-bottom: 90px;
-}
-
-.mini:before {
-  content: '';
-  position: absolute;
-  width: 140%;
-  height: 140%;
-  opacity: .95;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  background-image: url(../images/work-process-bg.png);
-  z-index: 2;
-  top: -20%;
-  left: -20%;
-}
-
-.mini .mini-content {
-  position: relative;
-  z-index: 3;
-}
-
-.mini .mini-content .info {
-  text-align: center;
-  color: #fff;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-.mini .mini-content .info small {
-  display: block;
-  font-weight: 400;
-  font-size: 13px;
-  margin-bottom: 5px;
-}
-
-.mini .mini-content .info strong {
-  font-weight: 700;
-  font-size: 17px;
-  margin-bottom: 40px;
-  display: block;
-}
-
-.mini .mini-content .info h1 {
-  color: #fff;
-  font-weight: 500;
-  font-size: 28px;
-  letter-spacing: 0.25px;
-  margin-bottom: 30px;
-}
-
-.mini .mini-content .info p {
-  letter-spacing: 1px;
-  margin-bottom: 40px;
-  color: #fff;
-  letter-spacing: 0.25px;
-  line-height: 26px;
-  font-weight: 400;
-  font-size: 15px;
-}
-
-.mini .mini-content .info p span {
-  text-decoration: underline;
-}
-
-.mini .mini-content .mini-box {
-  display: block;
-  background: #fff;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
-  margin-bottom: 30px;
-  position: relative;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  text-align: center;
-}
-
-.mini .mini-content .mini-box:hover {
-  margin-top: -10px;
-}
-
-.mini .mini-content .mini-box:before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  background: #fff;
-  width: 100%;
-  opacity: .15;
-  height: 100%;
-  bottom: -10px;
-  left: 0px;
-  right: -20px;
-  margin: auto;
-  border-radius: 20px;
-}
-
-.mini .mini-content .mini-box i {
-  display: block;
-  font-size: 20px;
-  margin-bottom: 15px;
-}
-
-.mini .mini-content .mini-box span {
-  display: block;
-  font-weight: 400;
-  font-size: 14px;
-  color: #777;
-  letter-spacing: .75px;
-}
-
-.mini .mini-content .mini-box strong {
-  display: block;
-  font-weight: 400;
-  font-size: 17px;
-  color: #1e1e1e;
-  letter-spacing: 0.25px;
-  margin-bottom: 5px;
-  margin-top: 20px;
-}
-
-.counter {
-  overflow: hidden;
-  position: relative;
-}
-
-.counter:before {
-  content: '';
-  position: absolute;
-  width: 140%;
-  height: 140%;
-  opacity: .90;
-  background-image: url(../images/fun-facts-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  z-index: 2;
-  top: -20%;
-  left: -20%;
-}
-
-.counter .content {
-  position: relative;
-  z-index: 3;
-  width: 100%;
-}
-
-.counter .content .count-item {
-  height: 340px;
-  position: relative;
-  float: left;
-  width: 100%;
-}
-
-.counter .content .count-item.decoration-bottom {
-  position: relative;
-}
-
-.counter .content .count-item.decoration-bottom:after {
-  content: '';
-  position: absolute;
-  width: 70%;
-  height: 32px;
-  top: 160px;
-  left: 70%;
-  background: url(../images/circle-dec.png) center center no-repeat;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.counter .content .count-item.decoration-top {
-  position: relative;
-}
-
-.counter .content .count-item.decoration-top:after {
-  content: '';
-  position: absolute;
-  width: 70%;
-  height: 32px;
-  top: 140px;
-  left: 70%;
-  background: url(../images/circle-dec.png) center center no-repeat;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.counter .content .count-item:hover strong {
-  margin-top: 110px;
-}
-
-.counter .content .count-item strong {
-  display: block;
-  text-align: center;
-  font-weight: 600;
-  font-size: 36px;
-  letter-spacing: 0.25px;
-  margin-bottom: 10px;
-  color: #fff;
-  margin-top: 120px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.counter .content .count-item span {
-  display: block;
-  text-align: center;
-  color: #fff;
-  font-weight: 500;
-  font-size: 17px;
-  letter-spacing: 0.25px;
-}
-
-@media (max-width: 991px) {
-  .parallax {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    min-height: auto;
-  }
-  .parallax .content {
-    position: relative !important;
-    top: 0% !important;
-    transform: perspective(1px) translateY(0%) !important;
-  }
-  .counter {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  .counter .content {
-    position: relative !important;
-    top: 0% !important;
-    transform: perspective(1px) translateY(0%) !important;
-  }
-  .counter .content .count-item {
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .counter .content .count-item:hover strong {
-    margin-top: 0px;
-  }
-  .counter .content .count-item:before {
-    display: none;
-  }
-  .counter .content .count-item:after {
-    display: none;
-  }
-  .counter .content .count-item strong {
-    margin-top: 0px;
-  }
-}
-
-/* 
----------------------------------------------
-team
---------------------------------------------- 
-*/
-.team-item {
-  background: #fff;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
-  border-radius: 20px;
-  position: relative;
-  margin-bottom: 30px;
-  padding-bottom: 25px;
-}
-
-.team-item:hover .team-content .team-info {
-  margin-left: 30px;
-}
-
-.team-item i {
-  display: block;
-  margin-left: 25px;
-  margin-top: 25px;
-  font-size: 30px;
-  color: #4E47DE;
-  text-align: center;
-}
-
-.team-item .user-image {
-  width: 60px;
-  height: 60px;
-  overflow: hidden;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  margin-left: 25px;
-  float: left;
-}
-
-.team-item .team-content {
-  text-align: left;
-  overflow: hidden;
-}
-
-.team-item .team-content .team-info {
-  float: left;
-  margin-left: 20px;
-  margin-top: 8px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.team-item .team-content .team-info .user-name {
-  display: block;
-  font-weight: 400;
-  font-size: 17px;
-  color: #1e1e1e;
-  letter-spacing: 0.25px;
-  margin-bottom: 5px;
-}
-
-.team-item .team-content .team-info span {
-  display: block;
-  font-weight: 400;
-  font-size: 15px;
-  color: #ff589e;
-  letter-spacing: 0.25px;
-}
-
-.team-item .team-content p {
-  margin-top: 25px;
-  padding-left: 25px;
-  padding-right: 25px;
-  margin-bottom: 25px;
-  font-weight: 400;
-  font-size: 15px;
-  color: #777;
-  letter-spacing: 0.6px;
-  line-height: 26px;
-}
-
-/* 
----------------------------------------------
-pricing
---------------------------------------------- 
-*/
-.pricing-item {
-  background: #FFFFFF;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
-  margin-bottom: 30px;
-  margin-top: 20px;
-  padding: 30px 0px 40px 0px;
-}
-
-.pricing-item.active .pricing-header {
-  position: relative;
-}
-
-.pricing-item.active .pricing-header .pricing-title {
-  color: #1e1e1e;
-}
-
-.pricing-item.active .pricing-body .price-wrapper {
-  background-color: #ff589e;
-}
-
-.pricing-item.active .pricing-body .price-wrapper .currency {
-  color: #fff;
-}
-
-.pricing-item.active .pricing-body .price-wrapper .price {
-  color: #fff;
-}
-
-.pricing-item.active .pricing-body .price-wrapper .period {
-  color: #fff;
-}
-
-.pricing-item .pricing-header {
-  text-align: center;
-  display: block;
-  position: relative;
-  padding-bottom: 10px;
-}
-
-.pricing-item .pricing-header .pricing-title {
-  font-weight: 500;
-  font-size: 17px;
-  letter-spacing: 0.25px;
-  color: #1e1e1e;
-  width: 180px;
-  height: 40px;
-  line-height: 40px;
-  left: 0px;
-  right: 0px;
-  margin: auto;
-}
-
-.pricing-item .pricing-body {
-  margin-bottom: 40px;
-}
-
-.pricing-item .pricing-body .price-wrapper {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 13px;
-  background: #8261ee;
-  width: 80%;
-  margin: auto;
-  margin-bottom: 40px;
-  margin-top: 5px;
-  border-radius: 20px;
-}
-
-.pricing-item .pricing-body .price-wrapper .currency {
-  height: 47px;
-  font-weight: 500;
-  font-size: 32px;
-  color: #fff;
-  position: relative;
-  top: -1px;
-}
-
-.pricing-item .pricing-body .price-wrapper .price {
-  font-weight: 500;
-  font-size: 28px;
-  color: #fff;
-}
-
-.pricing-item .pricing-body .price-wrapper .period {
-  font-weight: 400;
-  font-size: 14px;
-  color: #fff;
-  display: block;
-  letter-spacing: 0.88px;
-}
-
-.pricing-item .pricing-body .list li {
-  text-align: center;
-  margin-bottom: 12px;
-  font-weight: 400;
-  font-size: 13px;
-  color: #7a7a7a;
-  letter-spacing: 0.25px;
-  text-decoration: line-through;
-}
-
-.pricing-item .pricing-body .list li.active {
-  color: #7a7a7a;
-  text-decoration: none;
-}
-
-.pricing-item .pricing-footer {
-  text-align: center;
-  margin-top: 50px;
-}
-
-/* 
----------------------------------------------
-blog
---------------------------------------------- 
-*/
-.blog-post-thumb {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.blog-post-thumb.big .img {
-  height: 400px;
-}
-
-.blog-post-thumb .img {
-  overflow: hidden;
-  border-radius: 20px;
-  position: relative;
-  height: 200px;
-}
-
-.blog-post-thumb .blog-content {
-  margin-top: -30px;
-  padding-top: 50px;
-}
-
-.blog-post-thumb h3 {
-  margin-bottom: 20px !important;
-}
-
-.blog-post-thumb h3 a {
-  font-weight: 500;
-  font-size: 18px;
-  color: #1e1e1e;
-  letter-spacing: 0.25px;
-  line-height: 26px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-.blog-post-thumb h3 a:hover {
-  color: #ff589e;
-}
-
-.blog-post-thumb .text {
-  font-weight: 400;
-  font-size: 13px;
-  color: #777;
-  letter-spacing: 0.26px;
-  line-height: 26px;
-  margin-bottom: 15px;
-}
-
-.blog-post-thumb .post-footer span {
-  float: left;
-  height: 30px;
-  line-height: 30px;
-  font-weight: 300;
-  font-size: 14px;
-  color: #777;
-  padding-left: 30px;
-}
-
-.blog-post-thumb a.main-button  {
-  margin-top: 10px;
-  display: inline-block;
-}
-
-.blog-list .blog-post-thumb {
-  text-align: left;
-}
-
-
-/* 
----------------------------------------------
-contact
---------------------------------------------- 
-*/
-
-#contact-us {
-  padding: 160px 0px;
-}
-
-#contact-us h5 {
-  font-weight: 500;
-  font-size: 18px;
-  color: #1e1e1e;
-  letter-spacing: 0.25px;
-  line-height: 26px;
-}
-
-.contact-text {
-  font-weight: 400;
-  font-size: 14px;
-  color: #6F8BA4;
-  letter-spacing: 0.6px;
-  line-height: 26px;
-}
-
-.contact-text p {
-  margin-bottom: 28px;
-}
-
-.contact-form input,
-.contact-form textarea {
-  color: #777;
-  font-size: 14px;
-  border: 1px solid #eee;
-  width: 100%;
-  height: 50px;
-  outline: none;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 25px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  margin-bottom: 30px;
-}
-
-.contact-form textarea {
-  height: 150px;
-  resize: none;
-  padding: 20px;
-}
-
-/* 
----------------------------------------------
-footer
---------------------------------------------- 
-*/
-footer {
-  background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
-  padding-top: 30px;
-}
-
-footer .social {
-  overflow: hidden;
-  margin-top: 10px;
-  text-align: center;
-}
-
-footer .social li {
-  margin: 0px 10px;
-  display: inline-block;
-}
-
-footer .social li a {
-  color: #9d5bd9;
-   text-align: center;
-  background-color: #fff;
-  width: 36px;
-  height: 36px;
-  line-height: 36px;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 16px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-footer .social li a:hover {
-  background-color: #ff589e;
-  color: #fff;
-}
-
-footer .copyright {
-  text-align: center;
-  border-top: 1px solid rgba(250,250,250,0.2);
-  margin-top: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  font-weight: 400;
-  font-size: 12px;
-  color: #fff;
-  letter-spacing: 0.88px;
-  text-transform: uppercase;
-}
-
-@media (max-width: 991px) {
-  footer .text {
-    margin-bottom: 30px;
-  }
-  footer h5 {
-    margin-bottom: 15px;
-  }
-  footer .footer-nav {
-    margin-bottom: 30px;
-  }
-}
-
-/* 
----------------------------------------------
-preloader
---------------------------------------------- 
-*/
-#preloader {
-  overflow: hidden;
-  background-image: linear-gradient(135deg, #a759d1 0%, #8261ee 100%);
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  position: fixed;
-  z-index: 9999;
-  color: #fff;
-}
-
-#preloader .jumper {
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  display: block;
-  position: absolute;
-  margin: auto;
-  width: 50px;
-  height: 50px;
-}
-
-#preloader .jumper > div {
-  background-color: #fff;
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  position: absolute;
-  opacity: 0;
-  width: 50px;
-  height: 50px;
-  -webkit-animation: jumper 1s 0s linear infinite;
-  animation: jumper 1s 0s linear infinite;
-}
-
-#preloader .jumper > div:nth-child(2) {
-  -webkit-animation-delay: 0.33333s;
-  animation-delay: 0.33333s;
-}
-
-#preloader .jumper > div:nth-child(3) {
-  -webkit-animation-delay: 0.66666s;
-  animation-delay: 0.66666s;
-}
-
-@-webkit-keyframes jumper {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-  5% {
-    opacity: 1;
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 0;
-  }
-}
-
-@keyframes jumper {
-  0% {
-    opacity: 0;
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  }
-  5% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-        </style>
-</body></html>
+    </div>
+</section>
+<!-- End of Reservation Section -->	<!-- Features Section-->
+<section id="cta" class="bg-fixed overlay" style="background-image: url(img/bg.jpg);">
+    <div class="container">
+        <div class="section-content" data-aos="fade-up">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="mb-2">Make a beautiful website, or million of them</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, veritatis qui eligendi delectus quia fuga!</p>
+                    <a class="btn btn-outline-primary btn-lg">FEATURES</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End of Features Section--></div>
+<footer class="mastfoot my-3">
+    <div class="inner container">
+         <div class="row">
+         	<div class="col-lg-4 col-md-12 d-flex align-items-center">
+         		
+         	</div>
+         	<div class="col-lg-4 col-md-12 d-flex align-items-center">
+         		<p class="mx-auto text-center mb-0">&copy; 2019 Roxy. Design by <a href="https://gettemplates.co" target="_blank">GetTemplates</a>.</p>
+         	</div>
+           
+            <div class="col-lg-4 col-md-12">
+            	<nav class="nav nav-mastfoot justify-content-center">
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-facebook-f"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-twitter"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-instagram"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-linkedin"></i>
+	                </a>
+	                <a class="nav-link" href="#">
+	                	<i class="fab fa-youtube"></i>
+	                </a>
+	            </nav>
+            </div>
+            
+        </div>
+    </div>
+</footer>	<!-- External JS -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	<script src="vendor/bootstrap/popper.min.js"></script>
+	<script src="vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="vendor/select2/select2.min.js "></script>
+	<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="vendor/stellar/jquery.stellar.js" type="text/javascript" charset="utf-8"></script>
+	<script src="vendor/isotope/isotope.min.js"></script>
+	<script src="vendor/lightcase/lightcase.js"></script>
+	<script src="vendor/waypoints/waypoint.min.js"></script>
+	 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	 
+	<!-- Main JS -->
+	<script src="js/app.min.js "></script>
+	<script src="//localhost:35729/livereload.js"></script>
+</body>
+</html>
