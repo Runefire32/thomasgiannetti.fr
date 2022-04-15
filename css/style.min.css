@@ -37,10 +37,11 @@ button:focus {
 a:hover {
   text-decoration: none;
   color: #333399; }
+
 profilepic {
   max-width: 50%;
-  border-radius: 50%;
-}
+  border-radius: 50%; }
+
 img {
   max-width: 100%; }
 
