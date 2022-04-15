@@ -40,7 +40,7 @@ a:hover {
 
 .profilepic {
   max-width: 70%;
-  border-radius: 0 50% 50% 50%; }
+  border-radius: 120px 20px 120px 20px; }
 
 img {
   max-width: 100%; }
