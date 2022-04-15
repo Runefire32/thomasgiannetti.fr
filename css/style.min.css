@@ -39,8 +39,8 @@ a:hover {
   color: #333399; }
 
 .profilepic {
-  max-width: 50%;
-  border-radius: 50%; }
+  max-width: 70%;
+  border-radius: 0 50% 50% 50%; }
 
 img {
   max-width: 100%; }
